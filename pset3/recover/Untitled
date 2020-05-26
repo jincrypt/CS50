@@ -1,0 +1,33 @@
+first 3 bytes 0xff 0xd8 0xff
+last byte is 1110****
+0xe0 to 0xef
+
+if (buffer[0] == 0xff &&
+buffer[1] == 0xd8 &&
+buffer[2] == 0xff &&
+(buffer[3] & 0xf0) == 0xe0)
+
+every 512 bytes
+fread (data, size, number, inptr);
+
+start 0001.jpg
+sprintf(filename,"%03i.jpg",2);
+    filename: char array to store the resultant string
+
+FILE *img = fopen(filename, "w");
+
+fwrite(data,size,number,outptr);
+
+EOF: <512
+
+
+Open
+repeat until end of card
+    read 512bytes into a buffer
+    start of new jpeg?
+        yes ->
+        no ->
+    already found a jpeg?
+        no -> 
+        yes ->
+    close any remaining files

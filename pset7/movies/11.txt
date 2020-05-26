@@ -1,0 +1,6 @@
+title | rating
+42 | 7.5
+Black Panther | 7.3
+Marshall | 7.2
+Get on Up | 6.9
+Draft Day | 6.8

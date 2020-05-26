@@ -1,0 +1,31 @@
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: 5rem;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #B0C4DE;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.reveal {
+  opacity: 1;
+  transition: opacity 2s ease-in;
+}
